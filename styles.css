@@ -1,0 +1,65 @@
+#app {
+    background-color: grey;
+    border-radius: 8px;
+    width: 700px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 4px 4px 40px 6px rgba(204, 204, 204, 0.9);
+    height: 100%;
+};
+
+.contactForm {
+    background-color: white;
+    color: grey;
+    width: 300px;
+    padding: 10px;
+}
+
+input {
+    height: 15%;
+    margin: 10px;
+    padding: 20px;
+    float: left;
+    border-radius: 10px;
+}
+
+button {
+    background-color: white;
+    color: grey;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 8px;
+    height: 10%;
+    padding: 10px;
+}
+
+.contactItem {
+    background-color: lightgrey;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+} 
+
+.contactImage {
+    height: 80%;
+}
+
+.contactLabel {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactEmail {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
